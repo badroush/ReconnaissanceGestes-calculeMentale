@@ -1,25 +1,73 @@
-# Calcul Mental Gestuel - Reconnaissance de gestes pour les mathématiques
+# 🖐️ Hand Gesture Recognition & Mental Calculation
 
+> A computer vision and artificial intelligence project for recognizing hand gestures and using them as an input mechanism for mental calculation.
 
-Un jeu interactif qui utilise la reconnaissance de gestes des mains pour résoudre des opérations mathématiques en temps réel.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-OpenCV-green)
+![AI](https://img.shields.io/badge/AI-Machine%20Learning-orange)
 
-## Fonctionnalités
+---
 
-- 🖐️ Détection des gestes des deux mains avec MediaPipe
-- ➕➖ Génération aléatoire d'opérations mathématiques (additions/soustractions)
-- ✅ Feedback visuel et sonore immédiat
-- 📊 Système de score dynamique
-- 🔄 Collecte automatique de nouvelles données pour amélioration du modèle
-- ⏱️ Interface avec compte à rebours
+## 📌 Overview
 
-## Prérequis
+This project explores the use of **Computer Vision and Artificial Intelligence** to recognize hand gestures from images or camera input.
 
-- Webcam fonctionnelle
-- Python 3.8 ou supérieur
+Recognized gestures can be interpreted as numerical inputs and used to interact with a mental calculation application.
 
-## Installation
+The project combines image processing, hand/gesture recognition and application logic to create a natural human-computer interaction interface.
 
-1. Clonez le dépôt :
-   ```bash
-   git clone https://github.com/votre-utilisateur/calcul-mental-gestuel.git
-   cd calcul-mental-gestuel
+---
+
+## 🎯 Objectives
+
+The main objectives are to:
+
+- Detect and recognize hand gestures
+- Process camera/image input
+- Extract useful visual information
+- Convert recognized gestures into meaningful inputs
+- Use gestures for mental calculation
+- Explore computer vision techniques for human-computer interaction
+
+---
+
+## ✨ Main Features
+
+- 🖐️ Hand gesture recognition
+- 📷 Camera/image processing
+- 👁️ Computer vision
+- 🔢 Gesture-to-number interpretation
+- 🧮 Mental calculation interaction
+- 🤖 AI / Machine Learning experimentation
+- ⚡ Real-time interaction
+
+---
+
+## 🧠 Processing Pipeline
+
+```text
+Camera / Image
+      │
+      ▼
+Image Acquisition
+      │
+      ▼
+Preprocessing
+      │
+      ▼
+Hand Detection
+      │
+      ▼
+Gesture Recognition
+      │
+      ▼
+Gesture Interpretation
+      │
+      ▼
+Numerical Input
+      │
+      ▼
+Mental Calculation
+      │
+      ▼
+Result
